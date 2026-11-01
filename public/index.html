@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Useful online tools and Android apps in one marketplace.">
+<title>ToolNest — Digital Tools & APK Store</title>
+<link rel="stylesheet" href="/style.css">
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#"><span class="brand-icon">✦</span> ToolNest</a>
+<nav><a href="#tools">Online Tools</a><a href="#apps">APK Store</a><a href="#admin">Admin</a></nav>
+<button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button></header>
+<section class="hero"><div class="hero-copy"><span class="eyebrow">YOUR DIGITAL TOOLBOX</span>
+<h1>Powerful tools.<br><em>One simple place.</em></h1><p>Use handy browser tools or discover useful Android apps. Simple, secure and built for mobile.</p>
+<div class="hero-actions"><a class="btn primary" href="#tools">Explore tools</a><a class="btn ghost" href="#apps">Browse APKs</a></div>
+<div class="trust"><span>✓ Instant access</span><span>✓ Secure checkout</span><span>✓ Mobile friendly</span></div></div>
+<div class="hero-art"><div class="orb"></div><div class="float-card card-a"><b>✂</b><span>Image tools</span><small>Compress · Convert</small></div><div class="float-card card-b"><b>◈</b><span>Android apps</span><small>Download securely</small></div><div class="float-card card-c"><b>⚡</b><span>Quick access</span><small>Ready when you are</small></div></div></section>
+<main>
+<section class="section" id="tools"><div class="section-head"><div><span class="eyebrow">WORK SMARTER</span><h2>Online tools</h2><p>Useful utilities that run right in your browser.</p></div><span class="count" id="toolCount">Loading…</span></div><div class="grid" id="toolGrid"></div></section>
+<section class="section app-section" id="apps"><div class="section-head"><div><span class="eyebrow">ANDROID COLLECTION</span><h2>APK marketplace</h2><p>Discover apps and get a secure download after payment.</p></div><span class="count" id="apkCount">Loading…</span></div><div class="grid" id="apkGrid"></div></section>
+<section class="feature-strip"><div><b>01</b><h3>Explore</h3><p>Find tools and apps for everyday tasks.</p></div><div><b>02</b><h3>Choose</h3><p>Free and paid products in one catalog.</p></div><div><b>03</b><h3>Get access</h3><p>Use tools instantly or download your APK.</p></div></section>
+<section class="section" id="admin"><div class="admin-teaser"><div><span class="eyebrow">STORE OWNER</span><h2>Manage your marketplace</h2><p>Sign in to add tools, upload APKs and view orders.</p></div><button class="btn dark" id="adminOpen">Open admin panel</button></div></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-icon">✦</span> ToolNest</a><p>© <span id="year"></span> ToolNest. Only upload apps and files you own or are authorized to distribute.</p><span>Support: update your contact email here</span></footer>
+<div class="modal hidden" id="modal"><div class="modal-box"><button class="x" id="closeModal">×</button><div id="modalContent"></div></div></div>
+<div class="toast" id="toast"></div>
+<script src="/app.js"></script>
+</body></html>
